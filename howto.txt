@@ -1,3 +1,12 @@
+TELEGRAM BOT CREATION
+1)First of all, you need to have an Telegram Account
+
+2)Access here and see how to create a Telegram Bot: https://core.telegram.org/bots
+
+3)Copy your authorization token, you will need to insert it into the code configuration
+
+
+SERVER INSTALLATION
 1) Update all packages
 sudo apt update && sudo apt dist-upgrade -y && sudo apt autoremove -y
 
