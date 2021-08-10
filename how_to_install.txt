@@ -1,9 +1,14 @@
 TELEGRAM BOT CREATION
-1)First of all, you need to have an Telegram Account
+1)First of all, you need to have a Telegram Account
 
-2)Access here and see how to create a Telegram Bot: https://core.telegram.org/bots
+2)Second step, access here and see how to create a Telegram Bot: https://core.telegram.org/bots
 
 3)Copy your authorization token, you will need to insert it into the code configuration
+
+4)Access your new bot by BotFather. Open Bot Seetings and configure according to below:
+in line mode > turn to on
+allow groups > turn to on
+group privacy > turn to off
 
 
 SERVER INSTALLATION
