@@ -1,0 +1,12 @@
+[Unit]
+Description=Script Start
+After=network.target
+
+[Service]
+Type=simple
+User=your_system_user
+ExecStart=/bin/sh /your_mount_drive/your_folder/start_bot.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

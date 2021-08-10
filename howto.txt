@@ -1,0 +1,35 @@
+1) Update all packages
+sudo apt update && sudo apt dist-upgrade -y && sudo apt autoremove -y
+
+2) Install Python 3, Idle3 and PIP
+sudo apt install python3 idle3
+sudo apt install python3-pip
+
+3) Install packages
+pip3 install python-telegram-bot --upgrade
+pip3 install pandas --upgrade
+pip3 install lxml --upgrade
+pip3 install matplotlib
+pip3 install configparser
+
+4) Copy / Clone all content to '/your_destination_folder' folder like this:
+/your_mount_folder/your_folder
+
+5) Create link to run script when system start
+sudo nano /etc/systemd/system/bot_service.service
+
+### START FROM BELOW LINE ###
+
+#see file .service
+
+### END HERE ###
+save the file: ctrl + x, save= YES, ENTER to confirm
+
+sudo chmod +x /etc/systemd/system/bot_service.service
+sudo systemctl enable bot_service.service
+sudo systemctl daemon-reload
+sudo systemctl start bot_service.service
+sudo systemctl status bot_service.service
+
+verify if status is 'active (running)'
+
