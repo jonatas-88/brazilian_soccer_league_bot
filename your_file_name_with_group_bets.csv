@@ -1,0 +1,37 @@
+﻿nome;serie;time1;time2;time3;time4;time5;soma_pontos;soma_posicao;pos1;pos2;pos3;pos4;pos5;chave
+FULANO1;a;São Paulo;Palmeiras;Flamengo;Fluminense;RB Bragantino;0;0;0;0;0;0;0;0-0-0
+FULANO1;b;Vasco;Botafogo;Cruzeiro;Sampaio Corrêa;Guarani-SP;0;0;0;0;0;0;0;0-0-0
+FULANO2;a;Flamengo;Atlético-MG;Palmeiras;Chapecoense;RB Bragantino;0;0;0;0;0;0;0;0-0-0
+FULANO2;b;Cruzeiro;Botafogo;Vitória;Sampaio Corrêa;Remo;0;0;0;0;0;0;0;0-0-0
+FULANO3;a;Flamengo;Grêmio;São Paulo;Ceará;RB Bragantino;0;0;0;0;0;0;0;0-0-0
+FULANO3;b;Coritiba;Vasco;Cruzeiro;Sampaio Corrêa;Guarani-SP;0;0;0;0;0;0;0;0-0-0
+FULANO4;a;Flamengo;São Paulo;Palmeiras;Fluminense;RB Bragantino;0;0;0;0;0;0;0;0-0-0
+FULANO4;b;Vasco;Cruzeiro;Goiás;Náutico;Operário-PR;0;0;0;0;0;0;0;0-0-0
+FULANO5;a;Flamengo;Grêmio;Atlético-MG;Fluminense;RB Bragantino;0;0;0;0;0;0;0;0-0-0
+FULANO5;b;Cruzeiro;Botafogo;Vasco;Londrina;Operário-PR;0;0;0;0;0;0;0;0-0-0
+FULANO6;a;Flamengo;Palmeiras;São Paulo;Fortaleza;RB Bragantino;0;0;0;0;0;0;0;0-0-0
+FULANO6;b;Vitória;Goiás;Cruzeiro;Náutico;Brusque;0;0;0;0;0;0;0;0-0-0
+FULANO7;a;Flamengo;São Paulo;Palmeiras;Fluminense;RB Bragantino;0;0;0;0;0;0;0;0-0-0
+FULANO7;b;Cruzeiro;Ponte Preta;Coritiba;Londrina;Guarani-SP;0;0;0;0;0;0;0;0-0-0
+FULANO8;a;Atlético-MG;Palmeiras;Flamengo;Fluminense;RB Bragantino;0;0;0;0;0;0;0;0-0-0
+FULANO8;b;Vasco;Coritiba;Ponte Preta;Sampaio Corrêa;Guarani-SP;0;0;0;0;0;0;0;0-0-0
+FULANO9;a;Palmeiras;São Paulo;Flamengo;Fluminense;Sport;0;0;0;0;0;0;0;0-0-0
+FULANO9;b;Cruzeiro;Vasco;Coritiba;Náutico;Guarani-SP;0;0;0;0;0;0;0;0-0-0
+FULANO10;a;Palmeiras;São Paulo;Atlético-MG;Fluminense;RB Bragantino;0;0;0;0;0;0;0;0-0-0
+FULANO10;b;Vasco;Cruzeiro;Goiás;Náutico;Brusque;0;0;0;0;0;0;0;0-0-0
+FULANO11;a;São Paulo;Palmeiras;Atlético-MG;Chapecoense;Sport;0;0;0;0;0;0;0;0-0-0
+FULANO11;b;Coritiba;Ponte Preta;Vitória;Sampaio Corrêa;Remo;0;0;0;0;0;0;0;0-0-0
+FULANO12;a;Flamengo;Atlético-MG;Palmeiras;Fluminense;RB Bragantino;0;0;0;0;0;0;0;0-0-0
+FULANO12;b;Vasco;Coritiba;Cruzeiro;Náutico;Guarani-SP;0;0;0;0;0;0;0;0-0-0
+FULANO13;a;São Paulo;Internacional;Flamengo;Ceará;RB Bragantino;0;0;0;0;0;0;0;0-0-0
+FULANO13;b;Coritiba;Cruzeiro;Vasco;Vila Nova;Operário-PR;0;0;0;0;0;0;0;0-0-0
+FULANO14;a;Palmeiras;Flamengo;Internacional;Fluminense;Juventude;0;0;0;0;0;0;0;0-0-0
+FULANO14;b;Vasco;Cruzeiro;Botafogo;Vila Nova;Operário-PR;0;0;0;0;0;0;0;0-0-0
+FULANO15;a;São Paulo;Flamengo;Internacional;Fluminense;RB Bragantino;0;0;0;0;0;0;0;0-0-0
+FULANO15;b;Cruzeiro;Vasco;Coritiba;Náutico;Guarani-SP;0;0;0;0;0;0;0;0-0-0
+FULANO16;a;Palmeiras;São Paulo;Flamengo;Fluminense;RB Bragantino;0;0;0;0;0;0;0;0-0-0
+FULANO16;b;Cruzeiro;Vasco;Vitória;Sampaio Corrêa;Guarani-SP;0;0;0;0;0;0;0;0-0-0
+FULANO17;a;Flamengo;Palmeiras;Grêmio;Fluminense;RB Bragantino;0;0;0;0;0;0;0;0-0-0
+FULANO17;b;Vasco;Cruzeiro;Avaí;Náutico;Operário-PR;0;0;0;0;0;0;0;0-0-0
+FULANO18;a;São Paulo;Flamengo;Atlético-MG;Fluminense;RB Bragantino;0;0;0;0;0;0;0;0-0-0
+FULANO18;b;Vasco;Botafogo;Goiás;Náutico;Operário-PR;0;0;0;0;0;0;0;0-0-0
