@@ -6,3 +6,4 @@ bot_service.service
 start_bot.sh
 tabela_classificacao_2021.csv
 bot_campeonato_brasileiro_2021.ini
+*.ipynb
