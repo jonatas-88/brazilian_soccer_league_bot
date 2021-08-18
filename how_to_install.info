@@ -26,6 +26,7 @@ pip3 install lxml --upgrade
 pip3 install matplotlib
 pip3 install configparser
 pip3 install bar_chart_race
+pip3 install ffmpeg
 
 4) Copy / Clone all content to '/your_destination_folder' folder like this:
 /your_mount_folder/your_folder
