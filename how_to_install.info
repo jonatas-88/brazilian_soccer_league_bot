@@ -26,12 +26,15 @@ pip3 install lxml --upgrade
 pip3 install matplotlib
 pip3 install configparser
 pip3 install bar_chart_race
-conda install -c conda-forge ffmpeg
 
-4) Copy / Clone all content to '/your_destination_folder' folder like this:
+4) It's necessary ffmpeg:
+For Windows 10, using Anaconda envinronment: conda install -c conda-forge ffmpeg
+For Linux: sudo apt install ffmpeg
+
+5) Copy / Clone all content to '/your_destination_folder' folder like this:
 /your_mount_folder/your_folder
 
-5) Create link to run script when system start
+6) Create link to run script when system start
 sudo nano /etc/systemd/system/bot_service.service
 
 ### START FROM BELOW LINE ###
