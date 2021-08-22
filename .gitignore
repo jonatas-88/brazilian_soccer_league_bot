@@ -4,6 +4,7 @@ no_update/
 old/
 saved_csv/
 .ipynb_checkpoints/
+.vscode/
 bot_service.service
 start_bot.sh
 tabela_classificacao_2021.csv
