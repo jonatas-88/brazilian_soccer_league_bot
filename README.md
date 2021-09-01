@@ -9,6 +9,8 @@ This python script is scheduled on linux using services (services creation was d
 
 This service start a shell script that restart on failure according to service that was created. This shell script runs the python script that put the bot running on idle mode.
 
+It was added function to generate a bar chart race. Thanks for TedPetrou from "https://github.com/dexplo/bar_chart_race"
+
 HOW TO USE:
 -Open the file "your_file_name_with_group_bets.cvs" and fill info related to columns according to described below:
 -nome: "NAME OF EACH PERSON"
