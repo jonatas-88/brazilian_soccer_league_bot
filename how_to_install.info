@@ -30,6 +30,7 @@ pip3 install bar_chart_race
 4) It's necessary ffmpeg:
 For Windows 10, using Anaconda envinronment: conda install -c conda-forge ffmpeg
 For Linux: sudo apt update && sudo apt install ffmpeg
+or try to install conda envinronment, like on Windows.
 
 5) Copy / Clone all content to '/your_destination_folder' folder like this:
 /your_mount_folder/your_folder
