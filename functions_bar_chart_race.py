@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import os
 import sys
 import configparser
@@ -9,8 +10,8 @@ import bar_chart_race as bcr
 init_config_file_name = 'bot_campeonato_brasileiro_2021.ini'
 
 #IMPORT CONFIG FROM FILE .INI
-cwd = os.path.dirname(sys.argv[0]) #working on linux server or windows python script
-#cwd = os.getcwd() #working on windows during python notebook execution
+#cwd = os.path.dirname(sys.argv[0]) #working on linux server or windows python script
+cwd = os.getcwd() #working on windows during python notebook execution
 cfg = configparser.ConfigParser()
 ini_config_path = os.path.join(cwd,init_config_file_name)
 cfg.read(ini_config_path)
@@ -101,4 +102,3 @@ def generate_video_file(act_serie = 'a'):
     except:
         return ''
     return file_name
-
