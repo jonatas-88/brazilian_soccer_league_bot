@@ -21,4 +21,4 @@ IMPORTANT
 -You must remove "sample." from all file names that have it, like below:
 -sample.bot_campeonato_brasileiro_2021.ini > bot_campeonato_brasileiro_2021.ini
 -sample.bot_service.service > bot_service.service
-...
+... then you need to configure each file according to your information.
