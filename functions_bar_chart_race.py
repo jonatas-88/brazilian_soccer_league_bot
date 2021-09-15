@@ -94,7 +94,7 @@ def export_video_file_from_data_frame(df_received, act_serie):
     return file_name
 
 #MAIN FUNCTION TO REQUEST VIDEO FILE
-def generate_video_file(act_serie):
+def generate_video_file(act_serie='a'):
     try:
         exported_files_list = get_csv_from_folder()
         df = generate_data_frame_from_csv(exported_files_list, act_serie)
