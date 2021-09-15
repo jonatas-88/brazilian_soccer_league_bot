@@ -74,7 +74,7 @@ def generate_data_frame_from_csv(exported_files_list, act_serie):
 #FUNCTION TO EXPORT VIDEO FILE
 def export_video_file_from_data_frame(df_received, act_serie):
     time_now = datetime.now().strftime("%Y%m%d_%H%M%S")
-    file_name = os.path.join(cwd, bar_chart_race_video_folder, 'bar_chart_race_' + time_now + '.mp4')
+    file_name = os.path.join(cwd, bar_chart_race_video_folder, 'bar_chart_race_serie_' + act_serie + '_' + time_now + '.mp4')
     bcr.bar_chart_race(
         df=df_received,
         filename=file_name,
