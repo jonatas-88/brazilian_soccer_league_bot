@@ -4,6 +4,7 @@ exported_csv/
 no_update/
 old/
 saved_csv/
+others/
 .ipynb_checkpoints/
 .vscode/
 bot_service.service
