@@ -31,7 +31,7 @@ def get_csv_from_folder():
     return exported_files_list
 
 #FUNCTION TO TRANSFORM EACH CSV INTO DATAFRAME
-def transform_data_frame_pos(csv_file,act_serie='a'):
+def transform_data_frame_pos(csv_file,act_serie):
     #IDENTIFY FILE DATE PATTERN
     file_date = csv_file.removeprefix(exported_files_pattern_gen_class)
     file_date = file_date.removesuffix('.csv')
@@ -61,18 +61,18 @@ def transform_data_frame_pos(csv_file,act_serie='a'):
     return df
 
 #FUNCTION TO CREATE DATA FRAME FROM CSV FILES WITH DATA TRANFORMED
-def generate_data_frame_from_csv(exported_files_list, act_serie='a'):
+def generate_data_frame_from_csv(exported_files_list, act_serie):
     df_list = []
     for key, item in enumerate(exported_files_list):
         csv_file = item
-        df_act = transform_data_frame_pos(csv_file,act_serie)
+        df_act = transform_data_frame_pos(csv_file, act_serie)
         df_list.append(df_act)
     df_final = pd.concat(df_list)
     df_final = df_final.drop_duplicates()
     return df_final
 
 #FUNCTION TO EXPORT VIDEO FILE
-def export_video_file_from_data_frame(df_received, act_serie='a'):
+def export_video_file_from_data_frame(df_received, act_serie):
     time_now = datetime.now().strftime("%Y%m%d_%H%M%S")
     file_name = os.path.join(cwd, bar_chart_race_video_folder, 'bar_chart_race_' + time_now + '.mp4')
     bcr.bar_chart_race(
@@ -94,11 +94,11 @@ def export_video_file_from_data_frame(df_received, act_serie='a'):
     return file_name
 
 #MAIN FUNCTION TO REQUEST VIDEO FILE
-def generate_video_file(act_serie = 'a'):
+def generate_video_file(act_serie):
     try:
         exported_files_list = get_csv_from_folder()
-        df = generate_data_frame_from_csv(exported_files_list,act_serie)
-        file_name = export_video_file_from_data_frame(df)
+        df = generate_data_frame_from_csv(exported_files_list, act_serie)
+        file_name = export_video_file_from_data_frame(df, act_serie)
     except:
         return ''
     return file_name
