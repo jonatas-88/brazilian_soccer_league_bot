@@ -24,6 +24,7 @@ max_pos_sum = sum([x for x in range(max_pos,0,-1)][:5])
 
 exported_files_pattern_gen_class = os.path.join(exported_folder,pattern_name_general_classification)
 
+
 #FUNCTIONS
 #FUNCTION TO IDENTIFY CSV FILES FROM FOLDER
 def get_csv_from_folder():
