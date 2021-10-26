@@ -52,4 +52,3 @@ sudo systemctl start bot_service.service
 sudo systemctl status bot_service.service
 
 verify if status is 'active (running)'
-
